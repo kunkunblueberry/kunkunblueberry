@@ -17,12 +17,15 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Generate 3D contribution graph and language pie
+      - name: Generate 3D contribution graph
         uses: yoshi389111/github-profile-3d-contrib@v0.9.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: .github/3d-contrib-settings.json
+
+      - name: Strip the auto-generated language pie
+        run: python3 .github/strip-lang-pie.py
 
       - name: Push to profile-3d branch
         uses: crazy-max/ghaction-github-pages@v5
