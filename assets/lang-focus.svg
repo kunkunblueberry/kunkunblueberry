@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="900" height="250" role="img" aria-label="Language focus: Python 60%, C++ 35%, scripts 5%">
+  <defs>
+    <style>
+      .lbl { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+             font-size: 26px; fill: #2E2A26; }
+      .pct { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+             font-size: 26px; font-weight: 700; fill: #2E2A26; }
+      @media (prefers-color-scheme: dark) {
+        .lbl, .pct { fill: #F5F1E8; }
+      }
+    </style>
+  </defs>
+
+  <path d="M 135 35 A 90 90 0 1 1 82.10 197.81 L 102.08 170.30 A 56 56 0 1 0 135 69 Z" fill="#4E8A6B"/>
+  <path d="M 82.10 197.81 A 90 90 0 0 1 107.19 39.40 L 117.69 71.74 A 56 56 0 0 0 102.08 170.30 Z" fill="#F2D06B"/>
+  <path d="M 107.19 39.40 A 90 90 0 0 1 135 35 L 135 69 A 56 56 0 0 0 117.69 71.74 Z" fill="#9A9384"/>
+
+  <rect x="290" y="53" width="24" height="24" rx="6" fill="#4E8A6B"/>
+  <text class="lbl" x="332" y="74">Python</text>
+  <text class="pct" x="860" y="74" text-anchor="end">60%</text>
+
+  <rect x="290" y="113" width="24" height="24" rx="6" fill="#F2D06B"/>
+  <text class="lbl" x="332" y="134">C++</text>
+  <text class="pct" x="860" y="134" text-anchor="end">35%</text>
+
+  <rect x="290" y="173" width="24" height="24" rx="6" fill="#9A9384"/>
+  <text class="lbl" x="332" y="194">scripts</text>
+  <text class="pct" x="860" y="194" text-anchor="end">5%</text>
+</svg>

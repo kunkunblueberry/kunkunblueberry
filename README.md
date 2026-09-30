@@ -39,6 +39,14 @@
   <img alt="a snake eating my contribution graph" src="https://raw.githubusercontent.com/kunkunblueberry/kunkunblueberry/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
 
+<img alt="3D isometric contribution graph" src="https://raw.githubusercontent.com/kunkunblueberry/kunkunblueberry/profile-3d/profile-3d.svg" width="100%">
+
+<img src="./assets/divider.svg" alt="" width="100%">
+
+### Language focus
+
+<img alt="Python 60%, C++ 35%, scripts 5%" src="./assets/lang-focus.svg" width="100%">
+
 <img src="./assets/divider.svg" alt="" width="100%">
 
 ### Elsewhere
