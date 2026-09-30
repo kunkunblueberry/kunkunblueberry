@@ -30,17 +30,5 @@
         "#CFE0A8"
       ]
     }
-  },
-  {
-    "type": "pie_lang_only",
-    "fileName": "profile-lang-pie.svg",
-    "backgroundColor": "#FBF6EC",
-    "foregroundColor": "#2E2A26",
-    "growingAnimation": true,
-    "darkMode": {
-      "type": "pie_lang_only",
-      "backgroundColor": "#1B1815",
-      "foregroundColor": "#F5F1E8"
-    }
   }
 ]
