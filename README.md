@@ -12,11 +12,9 @@
   <sub>Reading the source, measuring what is actually slow, shipping small changes I can verify.</sub>
 </p>
 
-<!-- 小狗素材位：把素材放进 assets/ 后，删掉这一对注释标记即可启用
 <p align="center">
   <img src="./assets/dog.gif" alt="a small line-art dog" width="190">
 </p>
--->
 
 <img src="./assets/divider.svg" alt="" width="100%">
 
