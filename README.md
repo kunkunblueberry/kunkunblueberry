@@ -1,6 +1,6 @@
 <!--
   kunkunblueberry/kunkunblueberry — profile README
-  待填项：全局搜索 « 即可定位所有占位符
+  Entry point only — details live in the repos and PRs.
 -->
 
 <p align="center">
@@ -8,8 +8,8 @@
 </p>
 
 <p align="center">
-  <b>AI Systems · LLM Inference · HPC</b><br>
-  <sub>Reading the source, measuring what is actually slow, shipping small changes I can verify.</sub>
+  <b>AI Systems / LLM Inference · vLLM / vLLM-Omni · C++ / CUDA / Python</b><br>
+  <sub>From CUDA kernels and a hand-built runtime up to vLLM upstream — source first, minimal scope, verified changes.</sub>
 </p>
 
 <p align="center">
@@ -18,28 +18,16 @@
 
 <img src="./assets/divider.svg" alt="" width="100%">
 
-### Focus
-
-- **Inference systems** — scheduling, KV cache, and the vLLM V1 execution path
-- **High performance** — C++ / CUDA, parallel computing, memory-level optimization
-- **Working style** — source first, minimal scope, evidence before refactor
-
-<img src="./assets/divider.svg" alt="" width="100%">
-
 ### Selected Work
 
-<!-- TODO: 换成你真正想被评估的 2–3 个项目，链接直接指向 repo -->
-
-- **«project name»** — «problem → approach → outcome, one line» · `«stack»`
-- **«project name»** — «one line» · `«stack»`
-- **«project name»** — «one line» · `«stack»`
+- **vLLM-Omni Prefix Cache** — designed an adapter/manager architecture for the cross-stage prefix-cache lifecycle, separating scheduler interpretation from cache state management · `Python / C++ / Distributed Inference`
+- **Ming-Image CFG Parallel** — integrated CFG parallelism and single-GPU co-location into a multi-stage image generation pipeline · `Python / PyTorch / Distributed Inference`
+- **Mini LLM Inference Runtime** — built a lightweight inference engine from Tensor/Graph/OpRegistry and memory management to scheduling, KV cache, and model execution · `C++ / CUDA`
 
 ### Open Source
 
-<!-- TODO: 填你真实提过的 PR / issue；没有就整节删掉 -->
-
-- `«owner/repo»` — «what you changed» · [#«N»](«pr-link»)
-- `«owner/repo»` — «the bug you found» · [#«N»](«issue-link»)
+- **[vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni)** — cross-stage inference, prefix caching, batching, and image-generation infrastructure · `#7902 #7920 #8134 #8174`
+- **[ThinkFlowLab/vllm-rlt](https://github.com/ThinkFlowLab/vllm-rlt)** — integrated Nanbeige4.2 with PD serving and identified model/serving integration issues · `#77`
 
 <img src="./assets/divider.svg" alt="" width="100%">
 
@@ -57,6 +45,5 @@
 
 | | |
 | :-- | :-- |
-| **GitHub** | [@kunkunblueberry](https://github.com/kunkunblueberry) |
-| **Email** | `«you@example.com»` |
-| **Site** | `«https://…»` |
+| **GitHub** | **[@kunkunblueberry](https://github.com/kunkunblueberry)** |
+| **Email** | **[1833921874@qq.com](mailto:1833921874@qq.com)** |
