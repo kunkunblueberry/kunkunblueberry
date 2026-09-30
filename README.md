@@ -39,7 +39,10 @@
   <img alt="a snake eating my contribution graph" src="https://raw.githubusercontent.com/kunkunblueberry/kunkunblueberry/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
 
-<img alt="3D isometric contribution graph" src="https://raw.githubusercontent.com/kunkunblueberry/kunkunblueberry/profile-3d/profile-3d.svg" width="100%">
+<!-- 3D 图里 action 自带一个按仓库主语言统计的饼图，会把这个 profile 讲反（见 .github/strip-lang-pie.py），
+     workflow 已把它剥掉。URL 末尾的 ?v= 是 cache-buster：camo 按 URL 做缓存，改了图内容必须换一个 v 值，
+     否则页面会继续显示旧图。 -->
+<img alt="3D isometric contribution graph" src="https://raw.githubusercontent.com/kunkunblueberry/kunkunblueberry/profile-3d/profile-3d.svg?v=2" width="100%">
 
 <img alt="Language mix: Python 30%, C++ 53%, CUDA 12%, Shell 2%, C 1.5%, HTML 1%, other 0.5%" src="./assets/lang-mix.svg" width="100%">
 
