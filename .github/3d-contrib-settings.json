@@ -1,0 +1,46 @@
+[
+  {
+    "type": "normal",
+    "fileName": "profile-3d.svg",
+    "backgroundColor": "#FBF6EC",
+    "foregroundColor": "#2E2A26",
+    "strongColor": "#2F6F5E",
+    "weakColor": "#9A9384",
+    "radarColor": "#C9768F",
+    "growingAnimation": true,
+    "contribColors": [
+      "#EFE9DC",
+      "#F7E9A8",
+      "#DCE3C3",
+      "#9FC29B",
+      "#4E8A6B"
+    ],
+    "darkMode": {
+      "type": "normal",
+      "backgroundColor": "#1B1815",
+      "foregroundColor": "#F5F1E8",
+      "strongColor": "#CFE0A8",
+      "weakColor": "#8A8478",
+      "radarColor": "#E8B7C6",
+      "contribColors": [
+        "#2C2823",
+        "#4A4437",
+        "#6E7F5C",
+        "#94B57F",
+        "#CFE0A8"
+      ]
+    }
+  },
+  {
+    "type": "pie_lang_only",
+    "fileName": "profile-lang-pie.svg",
+    "backgroundColor": "#FBF6EC",
+    "foregroundColor": "#2E2A26",
+    "growingAnimation": true,
+    "darkMode": {
+      "type": "pie_lang_only",
+      "backgroundColor": "#1B1815",
+      "foregroundColor": "#F5F1E8"
+    }
+  }
+]

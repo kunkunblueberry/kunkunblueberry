@@ -20,9 +20,9 @@
 
 ### Selected Work
 
-- **vLLM-Omni Prefix Cache** — designed an adapter/manager architecture for the cross-stage prefix-cache lifecycle, separating scheduler interpretation from cache state management · `Python / C++ / Distributed Inference`
-- **Ming-Image CFG Parallel** — integrated CFG parallelism and single-GPU co-location into a multi-stage image generation pipeline · `Python / PyTorch / Distributed Inference`
-- **Mini LLM Inference Runtime** — built a lightweight inference engine from Tensor/Graph/OpRegistry and memory management to scheduling, KV cache, and model execution · `C++ / CUDA`
+- **LLM Inference Systems** — built and optimized inference runtimes across scheduling, KV cache, memory management, and model execution · `C++ / CUDA / Python`
+- **Prefix Cache & Cross-Stage Inference** — designed cache lifecycle and state-management abstractions for cross-stage intermediate-state reuse in multimodal inference · `vLLM / vLLM-Omni`
+- **Multimodal Serving & Scheduling** — worked on cross-stage execution, request batching, and scheduling for autoregressive and diffusion pipelines · `Distributed Inference / PyTorch`
 
 ### Open Source
 
