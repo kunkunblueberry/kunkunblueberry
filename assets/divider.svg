@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 28" width="1200" height="28" role="img" aria-label="section divider">
+  <defs>
+    <linearGradient id="fadeA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#EDE3D2" stop-opacity="0"/>
+      <stop offset="1" stop-color="#EDE3D2" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="fadeB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#EDE3D2" stop-opacity="1"/>
+      <stop offset="1" stop-color="#EDE3D2" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="40"  y1="14" x2="576"  y2="14" stroke="url(#fadeA)" stroke-width="2"/>
+  <line x1="624" y1="14" x2="1160" y2="14" stroke="url(#fadeB)" stroke-width="2"/>
+  <circle cx="588" cy="14" r="4" fill="#4E8A6B"/>
+  <circle cx="600" cy="14" r="4" fill="#F2D06B"/>
+  <circle cx="612" cy="14" r="4" fill="#C9768F"/>
+</svg>
