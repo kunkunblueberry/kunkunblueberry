@@ -41,11 +41,7 @@
 
 <img alt="3D isometric contribution graph" src="https://raw.githubusercontent.com/kunkunblueberry/kunkunblueberry/profile-3d/profile-3d.svg" width="100%">
 
-<img src="./assets/divider.svg" alt="" width="100%">
-
-### Language focus
-
-<img alt="Python 60%, C++ 35%, scripts 5%" src="./assets/lang-focus.svg" width="100%">
+<img alt="Language mix: Python 30%, C++ 53%, CUDA 12%, Shell 2%, C 1.5%, HTML 1%, other 0.5%" src="./assets/lang-mix.svg" width="100%">
 
 <img src="./assets/divider.svg" alt="" width="100%">
 

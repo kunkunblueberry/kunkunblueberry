@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320" role="img" aria-label="Language mix: Python 30%, C++ 53%, CUDA 12%, Shell 2%, C 1.5%, HTML 1%, other 0.5%">
+  <defs>
+    <style>
+      .lbl { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+             font-size: 26px; fill: #2E2A26; }
+      .pct { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+             font-size: 26px; font-weight: 700; fill: #2E2A26; }
+      @media (prefers-color-scheme: dark) {
+        .lbl, .pct { fill: #F5F1E8; }
+      }
+    </style>
+  </defs>
+
+  <path d="M 150 47 A 110 110 0 0 1 254.62 190.99 L 214.67 178.01 A 68 68 0 0 0 150 89 Z" fill="#4E8A6B"/>
+  <path d="M 254.62 190.99 A 110 110 0 1 1 53.61 104.01 L 90.41 124.24 A 68 68 0 1 0 214.67 178.01 Z" fill="#F2D06B"/>
+  <path d="M 53.61 104.01 A 110 110 0 0 1 116.01 52.38 L 128.99 92.33 A 68 68 0 0 0 90.41 124.24 Z" fill="#C9768F"/>
+  <path d="M 116.01 52.38 A 110 110 0 0 1 129.39 48.95 L 137.26 90.20 A 68 68 0 0 0 128.99 92.33 Z" fill="#9FC29B"/>
+  <path d="M 129.39 48.95 A 110 110 0 0 1 139.65 47.49 L 143.60 89.30 A 68 68 0 0 0 137.26 90.20 Z" fill="#B9AE96"/>
+  <path d="M 139.65 47.49 A 110 110 0 0 1 146.54 47.05 L 147.86 89.03 A 68 68 0 0 0 143.60 89.30 Z" fill="#6E7F5C"/>
+  <path d="M 146.54 47.05 A 110 110 0 0 1 150 47 L 150 89 A 68 68 0 0 0 147.86 89.03 Z" fill="#8A6F5C"/>
+
+  <rect x="330" y="35" width="22" height="22" rx="6" fill="#4E8A6B"/>
+  <text class="lbl" x="370" y="54">Python</text>
+  <text class="pct" x="860" y="54" text-anchor="end">30%</text>
+
+  <rect x="330" y="72" width="22" height="22" rx="6" fill="#F2D06B"/>
+  <text class="lbl" x="370" y="91">C++</text>
+  <text class="pct" x="860" y="91" text-anchor="end">53%</text>
+
+  <rect x="330" y="109" width="22" height="22" rx="6" fill="#C9768F"/>
+  <text class="lbl" x="370" y="128">CUDA</text>
+  <text class="pct" x="860" y="128" text-anchor="end">12%</text>
+
+  <rect x="330" y="146" width="22" height="22" rx="6" fill="#9FC29B"/>
+  <text class="lbl" x="370" y="165">Shell</text>
+  <text class="pct" x="860" y="165" text-anchor="end">2%</text>
+
+  <rect x="330" y="183" width="22" height="22" rx="6" fill="#B9AE96"/>
+  <text class="lbl" x="370" y="202">C</text>
+  <text class="pct" x="860" y="202" text-anchor="end">1.5%</text>
+
+  <rect x="330" y="220" width="22" height="22" rx="6" fill="#6E7F5C"/>
+  <text class="lbl" x="370" y="239">HTML</text>
+  <text class="pct" x="860" y="239" text-anchor="end">1%</text>
+
+  <rect x="330" y="257" width="22" height="22" rx="6" fill="#8A6F5C"/>
+  <text class="lbl" x="370" y="276">other</text>
+  <text class="pct" x="860" y="276" text-anchor="end">0.5%</text>
+</svg>
