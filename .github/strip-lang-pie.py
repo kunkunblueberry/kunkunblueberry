@@ -23,8 +23,23 @@ from __future__ import annotations
 import pathlib
 import sys
 
-TARGET = pathlib.Path("profile-3d-contrib/profile-3d.svg")
+TARGET_DIR = pathlib.Path("profile-3d-contrib")
 PIE_MARKER = '<g transform="translate(40, '
+
+
+def find_target() -> pathlib.Path:
+    """Locate the generated SVG.
+
+    Discovered by glob rather than hardcoded: the output file name comes from
+    `fileName` in SETTING_JSON, and renaming it is how we bust the
+    raw.githubusercontent / camo cache when the image content changes.
+    """
+    files = sorted(TARGET_DIR.glob("*.svg"))
+    if len(files) != 1:
+        raise SystemExit(
+            f"[strip-lang-pie] expected exactly 1 svg in {TARGET_DIR}/, found {len(files)}"
+        )
+    return files[0]
 
 
 def strip_group(svg: str, marker: str) -> str:
@@ -47,11 +62,8 @@ def strip_group(svg: str, marker: str) -> str:
 
 
 def main() -> int:
-    if not TARGET.is_file():
-        print(f"[strip-lang-pie] missing {TARGET}", file=sys.stderr)
-        return 1
-
-    svg = TARGET.read_text(encoding="utf-8")
+    target = find_target()
+    svg = target.read_text(encoding="utf-8")
 
     count = svg.count(PIE_MARKER)
     if count != 1:
@@ -71,8 +83,11 @@ def main() -> int:
         print("[strip-lang-pie] <g> tags unbalanced after strip", file=sys.stderr)
         return 1
 
-    TARGET.write_text(svg, encoding="utf-8")
-    print(f"[strip-lang-pie] removed {before - len(svg)} bytes ({before} -> {len(svg)})")
+    target.write_text(svg, encoding="utf-8")
+    print(
+        f"[strip-lang-pie] {target.name}: removed {before - len(svg)} bytes "
+        f"({before} -> {len(svg)})"
+    )
     return 0
 
 
