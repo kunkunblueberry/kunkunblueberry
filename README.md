@@ -4,10 +4,6 @@
 -->
 
 <p align="center">
-  <img src="./assets/header.svg" alt="KUNKUN" width="100%">
-</p>
-
-<p align="center">
   <b>AI Systems / LLM Inference · vLLM / vLLM-Omni · C++ / CUDA / Python</b><br>
   <sub>From CUDA kernels and a hand-built runtime up to vLLM upstream — source first, minimal scope, verified changes.</sub>
 </p>
